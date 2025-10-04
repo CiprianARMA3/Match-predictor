@@ -8,6 +8,13 @@ Also change the UTC offset based on your location in the world. Currently UTC+2 
 
 Also please read the LICENSE file where all the informations about the usage of the following code are.
 
+# Tutorial
+
+Run the main.py file, specify the competition, for a list of that run ```comp_codes.py```.
+If you want to have an HTML table, run ```viewer.py ``` only after having ran the main.py .
+
+Had to separate the 2 things to speed up the program.
+
 # Releases
 
 ```Release 1.0  || 04/10/2025```
