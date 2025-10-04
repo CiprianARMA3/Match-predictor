@@ -10,7 +10,7 @@ Also please read the LICENSE file where all the informations about the usage of 
 
 # Tutorial
 
-Run the main.py file, specify the competition, for a list of that run ```comp_codes.py```.
+Run the ```main.py``` file, specify the competition, for a list of that run ```comp_codes.py```.
 If you want to have an HTML table, run ```viewer.py ``` only after having ran the main.py .
 
 Had to separate the 2 things to speed up the program.
