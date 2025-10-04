@@ -4,7 +4,7 @@ from datetime import datetime, timedelta
 # -------------------- CONFIG --------------------
 DB_FILE = "football_predictions.db"
 OUTPUT_HTML ="viewer.html"
-UTC_OFFSET = 2  # Convert UTC to UTC+1 for display
+UTC_OFFSET = 2  
 
 # -------------------- CONNECT TO DB --------------------
 conn = sqlite3.connect(DB_FILE)
@@ -26,7 +26,7 @@ html = """
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Football Predictions</title>
+<title>Foottball predicts</title>
 <style>
     body { font-family: Arial, sans-serif; margin: 20px; }
     table { border-collapse: collapse; width: 100%; }
