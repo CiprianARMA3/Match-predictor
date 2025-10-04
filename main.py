@@ -5,9 +5,11 @@ import numpy as np
 from datetime import datetime, timedelta
 import time
 from scipy.stats import poisson
+from dotenv import load_dotenv
 
-# -------------------- CONFIG --------------------
-API_KEY = "29bd262893774e73a6f91593266e6a71"
+# -------------------- CONFIG -------------------
+load_dotenv()
+API_KEY = os.getenv("API_KEY")
 BASE_URL = "https://api.football-data.org/v4/"
 HEADERS = {"X-Auth-Token": API_KEY}
 BATCH_SIZE = 10  
